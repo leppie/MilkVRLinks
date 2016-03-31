@@ -1,5 +1,9 @@
 # MilkVRLinks
-generates mrvl files for video files hosted on a server
+Generates mrvl files for video files hosted on a server.
+
+This assumes you have a proper MilkVR videotype suffix for the file, eg `video_180x180_3dh.mp4`. 
+
+The suffix will be stripped the title and resulting link filename.
 
 Usage
 =====
