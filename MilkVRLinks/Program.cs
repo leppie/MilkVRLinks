@@ -19,7 +19,7 @@ class Program
             }
         }
 
-        foreach (var f in Directory.EnumerateFiles(".", searchpattern))
+        foreach (var f in Directory.GetFiles(".", searchpattern))
         {
             Video.FromFile(Path.GetFileName(f), baseurl).ToMVRL();
         }
